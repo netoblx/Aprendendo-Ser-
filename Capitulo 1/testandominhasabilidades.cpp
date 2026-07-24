@@ -2,13 +2,15 @@
 
 int main()
 {
-    int x{};
+    int idade{};
 
     std::cout << "Digite a sua idade: ";
 
-    std::cin >> x;
+    std::cin >> idade;
 
-    std::cout << "Daqui a 50 anos vc tera "<< x + 50 << " anos\n";
+    int idade_futura{idade + 50};
+
+    std::cout << "Daqui a 50 anos vc tera "<< idade_futura << " anos\n";
 
     return 0;
 }
